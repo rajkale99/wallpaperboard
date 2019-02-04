@@ -22,19 +22,6 @@
         android:title="@string/ui_settings_title">
 
         <Preference
-            android:key="theme"
-            android:persistent="true"
-            android:summary="@string/theme_setting_content"
-            android:title="@string/theme_setting_title" />
-
-        <SwitchPreference
-            android:defaultValue="true"
-            android:key="color_navbar"
-            android:persistent="true"
-            android:summary="@string/navbar_color_setting_content"
-            android:title="@string/navbar_color_setting_title" />
-
-        <Preference
             android:key="columns"
             android:persistent="true"
             android:summary="@string/wallpapers_columns_setting_content"

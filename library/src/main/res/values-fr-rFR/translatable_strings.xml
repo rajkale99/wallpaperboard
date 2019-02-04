@@ -63,8 +63,8 @@
   <string name="refresh">Rafraîchir</string>
   <string name="translate">Traduire</string>
   <string name="licenses">Licences</string>
-  <!-- Consider Frames an untranslatable word. It's the dashboard name -->
-  <string name="frames_dashboard">Frames Tableau de Bord</string>
+  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
+  <string name="vpapers_dashboard">VPapers Tableau de Bord</string>
   <string name="dev_contributions">Aide au développement</string>
   <string name="ui_contributions">Aide pour l\'interface Utilisateur</string>
   <string name="dashboard_copyright">Je suis un développeur Android créactif, passionné et le créateur de ce tableau de bord.</string>

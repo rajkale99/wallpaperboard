@@ -18,7 +18,7 @@
 <resources>
   <!-- Do NOT remove or change the %1$s (or with any other number) -->
   <string name="search_x">सर्च %1$s…</string>
-  <!-- Consider Frames an untranslatable word. It's the dashboard name -->
+  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
   <!-- Light Theme -->
   <!-- Dark Theme -->
   <!-- Amoled Theme -->

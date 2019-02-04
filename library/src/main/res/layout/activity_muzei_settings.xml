@@ -30,7 +30,7 @@
         android:layout_height="wrap_content"
         tools:ignore="UnusedAttribute">
 
-        <jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
+        <com.viper.vpapers.ui.widgets.CustomToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"

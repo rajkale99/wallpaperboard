@@ -49,7 +49,7 @@
         android:clipChildren="false"
         app:elevation="0dp">
 
-        <jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar
+        <com.viper.vpapers.ui.widgets.CustomToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
@@ -83,7 +83,7 @@
 
             </LinearLayout>
 
-        </jahirfiquitiva.libs.frames.ui.widgets.CustomToolbar>
+        </com.viper.vpapers.ui.widgets.CustomToolbar>
 
     </com.google.android.material.appbar.AppBarLayout>
 

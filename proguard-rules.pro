@@ -39,7 +39,7 @@
 }
 
 -keep public class android.app.ActivityTransitionCoordinator
--keep class com.viper.vpapers.** { *; }
+-keep class com.pti.tipapers.** { *; }
 -keep class jahirfiquitiva.libs.kext.** { *; }
 
 -keep class com.google.**

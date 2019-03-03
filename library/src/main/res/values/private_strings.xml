@@ -27,9 +27,9 @@
         <item>@string/auto_amoled</item>
     </string-array>
 
-    <bool name="isVPapers">true</bool>
+    <bool name="isTiPapers">true</bool>
 
-    <string name="vpapers_notifications_action">"com.viper.vpapers.NOTIFICATIONS_ACTION"</string>
+    <string name="tipapers_notifications_action">"com.pti.tipapers.NOTIFICATIONS_ACTION"</string>
 
     <color name="cardview_light_background">@color/light_theme_card_background</color>
     <color name="cardview_dark_background">@color/dark_theme_card_background</color>

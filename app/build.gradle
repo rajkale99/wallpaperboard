@@ -32,10 +32,10 @@ apply plugin: 'kotlin-android'
 android {
     signingConfigs {
         release {
-            keyAlias 'vpapers'
-            keyPassword 'vpapers'
-            storeFile file('vpapers.jks')
-            storePassword 'vpapers'
+            keyAlias 'tipapers'
+            keyPassword 'tipapers'
+            storeFile file('tipapers.jks')
+            storePassword 'tipapers'
         }
     }
 
@@ -62,7 +62,7 @@ android {
                                 onesignal_google_project_number: "1234567890"]
                                 */
 
-        applicationId details.appGroup + ".vpapers"
+        applicationId details.appGroup + ".tipapers"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode versions.versionCode

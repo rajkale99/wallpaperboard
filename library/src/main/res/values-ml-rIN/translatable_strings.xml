@@ -63,8 +63,8 @@
   <string name="refresh">പുതുക്കുക</string>
   <string name="translate">വിവർത്തനം ചെയ്യുക</string>
   <string name="licenses">ലൈസൻസുകൾ</string>
-  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
-  <string name="vpapers_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
+  <!-- Consider TiPapers an untranslatable word. It's the dashboard name -->
+  <string name="tipapers_dashboard">ഫ്രെയിംസ് ഡാഷ്ബോർഡ്</string>
   <string name="dev_contributions">വികസന സഹായം</string>
   <string name="ui_contributions">യു ഐ സഹായം</string>
   <string name="sherry_description">ഈ ഡാഷ്ബോഡ്ഡ്  സാധ്യമാക്കിയ, ക്രീറ്റിവ് ഫോട്ടോഗ്രാഫർ ആയ വനിത. </string>

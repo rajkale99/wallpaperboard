@@ -15,9 +15,9 @@
  */
 ext.details = [
         // Core app details
-        appId   : 'VPapers',
-        appGroup: 'com.viper',
-        libGroup: 'com.viper',
+        appId   : 'TiPapers',
+        appGroup: 'com.pti',
+        libGroup: 'com.pti',
 ]
 
 ext.versions = [

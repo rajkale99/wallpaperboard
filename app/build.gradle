@@ -32,10 +32,10 @@ apply plugin: 'kotlin-android'
 android {
     signingConfigs {
         release {
-            keyAlias 'tipaper'
-            keyPassword 'tipaper'
-            storeFile file('tipapers.jks')
-            storePassword 'tipaper'
+            keyAlias ''
+            keyPassword ''
+            storeFile file('')
+            storePassword ''
         }
     }
 
@@ -80,7 +80,7 @@ android {
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
             consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            signingConfig signingConfigs.release
+            signingConfig null
         }
     }
 

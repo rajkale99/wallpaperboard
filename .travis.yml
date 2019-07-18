@@ -23,7 +23,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew assemble
+  - ./gradlew assembleRelease
 
 sudo: false
 

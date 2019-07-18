@@ -1,6 +1,10 @@
 #!/usr/bin/env bash
 mkdir $HOME/daily/
 ls
+cd app/
+ls
+cd build/
+ls
 cp -Rf * $HOME/daily/
 
 cd $HOME/
@@ -19,6 +23,5 @@ git add -A
 ls
 git commit -m "Travis build $TRAVIS_BUILD_NUMBER pushed"
 git push -fq origin master > /dev/null
-git status
-git log
+
 echo "Done"

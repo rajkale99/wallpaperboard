@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 mkdir $HOME/daily/
-cp -Rf app/build/outputs/apk/ $HOME/daily/
+ls
+cp -Rf * $HOME/daily/
 
 cd $HOME/
 git config --global user.email "kaleraj.rk@gmail.com"

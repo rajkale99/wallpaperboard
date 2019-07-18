@@ -32,10 +32,6 @@ apply plugin: 'kotlin-android'
 android {
     signingConfigs {
         unsigned {
-            keyAlias =""
-            keyPassword = ""
-            storeFile = ""
-            storePassword = ""
         }
     }
 

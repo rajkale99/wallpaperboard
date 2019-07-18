@@ -32,10 +32,10 @@ apply plugin: 'kotlin-android'
 android {
     signingConfigs {
         release {
-            keyAlias 'tipapers'
-            keyPassword 'tipapers'
+            keyAlias 'tipaper'
+            keyPassword 'tipaper'
             storeFile file('tipapers.jks')
-            storePassword 'tipapers'
+            storePassword 'tipaper'
         }
     }
 

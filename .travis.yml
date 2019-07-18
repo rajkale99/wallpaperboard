@@ -23,7 +23,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew clean build
+  - ./gradlew build
 
 sudo: false
 

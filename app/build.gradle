@@ -30,10 +30,6 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    signingConfigs {
-        unsigned {
-        }
-    }
 
     compileSdkVersion versions.targetSdk
     buildToolsVersion versions.buildTools
@@ -69,14 +65,8 @@ android {
     }
 
     buildTypes {
-        release {
-            debuggable false
-            zipAlignEnabled true
-            minifyEnabled true
-            shrinkResources false
-            proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            signingConfig signingConfigs.unsigned
+        debug {
+        signingConfig null
         }
     }
 

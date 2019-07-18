@@ -31,11 +31,11 @@ apply plugin: 'kotlin-android'
 
 android {
     signingConfigs {
-        release {
-            keyAlias ''
-            keyPassword ''
-            storeFile file('')
-            storePassword ''
+        unsigned {
+            keyAlias =""
+            keyPassword = ""
+            storeFile = ""
+            storePassword = ""
         }
     }
 
@@ -80,7 +80,7 @@ android {
             shrinkResources false
             proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
             consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
-            signingConfig null
+            signingConfig signingConfigs.unsigned
         }
     }
 

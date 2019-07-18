@@ -22,7 +22,7 @@ before_install:
 jdk:
   - oraclejdk8
 
-script: if [[ "$TRAVIS_TAG" ]]; then ./gradlew clean :app:assembleRelease --stacktrace; else ./gradlew clean test --stacktrace; fi
+script:./gradlew build
 
 branches:
   except:
@@ -30,15 +30,6 @@ branches:
     - gh-pages
     - travis-build
     - i18n
-
-notifications:
-  email: false
-  slack:
-    rooms: jahirfiquitiva:StCMaxV85iad38DdSMBY43xW
-    template:
-      - 'Build <%{build_url}|#%{build_number}> (<%{compare_url}|%{commit}: ''%{commit_subject}''>)  by
-        %{author} for %{repository_name}@%{branch}, %{result} in %{duration}. <%{build_url}|Check
-        details>.'
 
 sudo: false
 

@@ -3,14 +3,14 @@ mkdir $HOME/r/
 ls
 cd app/
 ls
-cd build/outputs/apk/release/
+cd build/outputs/apk/
 ls
 cp -Rf * $HOME/r/
 
 cd $HOME/
 git config --global user.email "kaleraj.rk@gmail.com"
 git config --global user.name "rajkale99"
-git clone --depth=10 --branch=master https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/Travis.git ma > /dev/null 
+git clone --depth=10 --branch=master https://rajkale99:$GITHUB_API_KEY@github.com/rajkale99/tes.git ma > /dev/null 
 cd ma
 cp -Rf $HOME/r/ .
 ls

@@ -23,7 +23,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - ./gradlew clean :app:assembleRelease --stacktrace
+  - ./gradlew build --stacktrace
 
 sudo: false
 

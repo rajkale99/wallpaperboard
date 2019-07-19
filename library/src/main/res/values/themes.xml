@@ -16,13 +16,13 @@
   -->
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="LightTheme" parent="TiPapers.Base.Light" />
+    <style name="LightTheme" parent="VPapers.Base.Light" />
 
-    <style name="DarkTheme" parent="TiPapers.Base.Dark" />
+    <style name="DarkTheme" parent="VPapers.Base.Dark" />
 
-    <style name="TransparentTheme" parent="TiPapers.Base.Clear" />
+    <style name="TransparentTheme" parent="VPapers.Base.Clear" />
 
-    <style name="AmoledTheme" parent="TiPapers.Base.Amoled" />
+    <style name="AmoledTheme" parent="VPapers.Base.Amoled" />
 
     <style name="Viewer.LightTheme" parent="LightTheme" />
 
@@ -32,7 +32,7 @@
 
     <style name="Viewer.TransparentTheme" parent="TransparentTheme" />
 
-    <style name="TiPapers.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="VPapers.Base.Light" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/light_theme_primary</item>
         <item name="colorPrimaryDark">@color/light_theme_primary_dark</item>
         <item name="colorAccent">@color/light_theme_accent</item>
@@ -59,7 +59,7 @@
         <item name="isDarkTheme">@bool/is_DarkTheme</item>
     </style>
 
-    <style name="TiPapers.Base.Dark" parent="Theme.AppCompat.NoActionBar">
+    <style name="VPapers.Base.Dark" parent="Theme.AppCompat.NoActionBar">
         <item name="colorPrimary">@color/dark_theme_primary</item>
         <item name="colorPrimaryDark">@color/dark_theme_primary_dark</item>
         <item name="colorAccent">@color/dark_theme_accent</item>
@@ -82,7 +82,7 @@
         <item name="isDarkTheme">true</item>
     </style>
 
-    <style name="TiPapers.Base.Amoled" parent="TiPapers.Base.Dark">
+    <style name="VPapers.Base.Amoled" parent="VPapers.Base.Dark">
         <item name="colorPrimary">@android:color/black</item>
         <item name="colorPrimaryDark">@android:color/black</item>
         <item name="android:windowBackground">@android:color/black</item>
@@ -93,7 +93,7 @@
 
     <color name="clear_bg">#70000000</color>
 
-    <style name="TiPapers.Base.Clear" parent="TiPapers.Base.Amoled">
+    <style name="VPapers.Base.Clear" parent="VPapers.Base.Amoled">
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowBackground">@color/clear_bg</item>
     </style>

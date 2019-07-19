@@ -42,7 +42,7 @@
 -keep public class com.bumptech.glide.integration.webp.WebpBitmapFactory { *; }
 
 -keep public class android.app.ActivityTransitionCoordinator
--keep class com.pti.tipapers.** { *; }
+-keep class com.viper.vpapers.** { *; }
 -keep class jahirfiquitiva.libs.kext.** { *; }
 
 -keep class com.google.**

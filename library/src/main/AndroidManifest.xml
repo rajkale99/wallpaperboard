@@ -17,7 +17,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.pti.tipapers">
+    package="com.viper.vpapers">
 
     <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
     <uses-permission
@@ -74,7 +74,7 @@
 
         <!--suppress AndroidDomInspection -->
         <activity
-            android:name=".ui.activities.TiPapersActivity"
+            android:name=".ui.activities.VPapersActivity"
             android:windowSoftInputMode="stateHidden|adjustPan|adjustResize"
             android:exported="false" />
         <activity

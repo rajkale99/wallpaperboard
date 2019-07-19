@@ -27,7 +27,7 @@
 
     <include layout="@layout/extra_empty_views" />
 
-    <com.pti.tipapers.ui.widgets.EmptyViewRecyclerView
+    <com.viper.vpapers.ui.widgets.EmptyViewRecyclerView
         android:id="@+id/list_rv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

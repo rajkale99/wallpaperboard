@@ -16,7 +16,7 @@
   -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           xmlns:tools="http://schemas.android.com/tools"
-          package="com.pti.tipapers.app">
+          package="com.viper.vpapers.app">
 
     <!-- Permission required for donations -->
     <uses-permission android:name="com.android.vending.BILLING" />
@@ -104,7 +104,7 @@
                 android:value="@color/muzei_color" />
             <meta-data
                 android:name="settingsActivity"
-                android:value="com.pti.tipapers.ui.activities.MuzeiSettingsActivity" />
+                android:value="com.viper.vpapers.ui.activities.MuzeiSettingsActivity" />
         </provider>
 
         <!-- Required for files access !!! DO NOT REMOVE !!! -->

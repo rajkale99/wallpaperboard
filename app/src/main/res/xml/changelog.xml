@@ -16,7 +16,7 @@
   -->
 <resources>
     <version title="v1.0" />
-    <item text="TiPapers Bringup" />
+    <item text="VPapers Bringup" />
     <item text="Using Frames as base app" />
     <item text="Thank you Jahir Fiquitiva for the great library" />
     <item text="" /> <!-- this one is empty and therefore ignored -->

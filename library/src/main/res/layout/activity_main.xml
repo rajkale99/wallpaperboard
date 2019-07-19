@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:clipChildren="false">
 
-        <com.pti.tipapers.ui.widgets.CustomToolbar
+        <com.viper.vpapers.ui.widgets.CustomToolbar
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"

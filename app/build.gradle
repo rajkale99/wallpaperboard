@@ -30,6 +30,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
+    signingConfigs {
+        release {
+            keyAlias 'vpapers'
+            keyPassword 'vpapers'
+            storeFile file('vpapers.jks')
+            storePassword 'vpapers'
+        }
+    }
 
     compileSdkVersion versions.targetSdk
     buildToolsVersion versions.buildTools
@@ -54,7 +62,7 @@ android {
                                 onesignal_google_project_number: "1234567890"]
                                 */
 
-        applicationId details.appGroup + ".tipapers"
+        applicationId details.appGroup + ".vpapers"
         minSdkVersion versions.minSdk
         targetSdkVersion versions.targetSdk
         versionCode versions.versionCode
@@ -65,9 +73,16 @@ android {
     }
 
     buildTypes {
-        debug {
-        signingConfig null
+      release {
+	    debuggable false
+            zipAlignEnabled true
+            minifyEnabled true
+            shrinkResources false
+            proguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+            consumerProguardFiles 'proguard-android-optimize.txt', 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
+
     }
 
     sourceSets {

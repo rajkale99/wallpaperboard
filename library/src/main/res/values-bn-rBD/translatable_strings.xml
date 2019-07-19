@@ -43,7 +43,7 @@
   <string name="about">সম্বন্ধে</string>
   <string name="translate">অনুবাদ</string>
   <string name="licenses">লাইসেন্স</string>
-  <!-- Consider TiPapers an untranslatable word. It's the dashboard name -->
+  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
   <string name="dev_contributions">ডেভেলপমেন্ট সাহায্য</string>
   <string name="ui_contributions">UI সহায়তা</string>
   <!-- Light Theme -->

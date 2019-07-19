@@ -63,8 +63,8 @@
   <string name="refresh">Genindlæs</string>
   <string name="translate">Oversæt</string>
   <string name="licenses">Licenser</string>
-  <!-- Consider TiPapers an untranslatable word. It's the dashboard name -->
-  <string name="tipapers_dashboard">TiPapers instrumentpanel</string>
+  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
+  <string name="vpapers_dashboard">VPapers instrumentpanel</string>
   <string name="dev_contributions">Udviklings hjælp</string>
   <string name="ui_contributions">Brugerflade hjælp</string>
   <string name="dashboard_copyright">Jeg er en passioneret og kreativ Android-udvikler og skaberen af dashboard.</string>

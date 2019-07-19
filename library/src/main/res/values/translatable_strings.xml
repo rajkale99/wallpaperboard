@@ -75,8 +75,8 @@
 
     <string name="translate">Translate</string>
     <string name="licenses">Licenses</string>
-    <!-- Consider TiPapers an untranslatable word. It's the dashboard name -->
-    <string name="tipapers_dashboard">TiPapers Dashboard</string>
+    <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
+    <string name="vpapers_dashboard">VPapers Dashboard</string>
     <string name="dev_contributions">Development Help</string>
     <string name="ui_contributions">UI Help</string>
 

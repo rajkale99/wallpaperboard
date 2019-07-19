@@ -63,8 +63,8 @@
   <string name="refresh">Actualizar</string>
   <string name="translate">Traducir</string>
   <string name="licenses">Licencias</string>
-  <!-- Consider TiPapers an untranslatable word. It's the dashboard name -->
-  <string name="tipapers_dashboard">Aplicación TiPapers</string>
+  <!-- Consider VPapers an untranslatable word. It's the dashboard name -->
+  <string name="vpapers_dashboard">Aplicación VPapers</string>
   <string name="dev_contributions">Colaboración al Desarrollo</string>
   <string name="ui_contributions">Colaboración de Interfaz</string>
   <string name="dashboard_copyright">Soy un desarrollador Android apasionado y creativo y el creador de esta aplicación.</string>
